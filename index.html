@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main-cont">
+        <div id="top-cont">
+            <div class="switch">
+                <label>
+                    <input type="checkbox" id="display-switch">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <h1>Metric/Imperial Unit Conversion</h1>
+            <input type="number" id="number-input">
+            <button id="convert-btn">Convert</button>
+        </div>
+        <div class="converted-cont">
+            <div class="result-cont">
+                <p class="measurement">Length (Meters/Feet)</p>
+                <p class="result" id="meters-feet">result</p>
+            </div>
+            <div class="result-cont">
+                <p class="measurement">Volume (Liters/Gallons)</p>
+                <p class="result" id="liters-Gallons">result</p>
+            </div>
+            <div class="result-cont">
+                <p class="measurement">Mass (Kilograms/Pounds)</p>
+                <p class="result" id="kilograms-Pounds">result</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
